@@ -10,11 +10,9 @@
 
 void main() {
     int c;
-
-    // gets from stdin
+    printf("copying input to output, use ctrl-c to exit\n")
     c = getchar();
     while(c != EOF) {
-        // writes to stdout
         putchar(c);
         c = getchar();
     }
